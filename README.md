@@ -8,7 +8,7 @@ The project demonstrates end-to-end understanding of **GPU kernel design, profil
 
 ---
 
-Project Overview
+# Project Overview
 This project implements the **LeNet-5 CNN forward pass** in **CUDA C++**, comparing performance between CPU and GPU versions.  
 Two GPU implementations are provided:
 - **Global Memory Variant** – baseline CUDA kernels using direct global access.  
@@ -16,7 +16,7 @@ Two GPU implementations are provided:
 
 ---
 
- Network Architecture
+# Network Architecture
 
 | Layer | Type | Output Size |
 |:------|:-----|:------------|
@@ -31,7 +31,7 @@ Two GPU implementations are provided:
 
 ---
 
- Features
+# Features
 - Complete LeNet-5 forward-pass inference pipeline  
 - Separate **global** and **shared-memory** CUDA kernels for convolution layers  
 - Output verification against CPU baseline  
@@ -41,7 +41,7 @@ Two GPU implementations are provided:
 
 ---
 
- Implementation Details
+# Implementation Details
 - **Language:** C, CUDA C++  
 - **Hardware:** NVIDIA Tesla V100 / A100  
 - **Software Tools:** NVCC, Nsight Systems, VS Code, CUDA 11.x  
@@ -49,7 +49,7 @@ Two GPU implementations are provided:
 
 ---
 
-Performance Summary
+# Performance Summary
 
 | Layer | CPU (ms) | CUDA Global (ms) | CUDA Shared (ms) | Speed-up (×) |
 |:------|---------:|-----------------:|-----------------:|--------------:|
