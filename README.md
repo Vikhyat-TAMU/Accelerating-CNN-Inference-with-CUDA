@@ -3,7 +3,7 @@
 I led the design and development of this project as part of **ECEN 489: GPU Programming and Visualization**, focusing on accelerating convolutional neural network (CNN) inference using NVIDIA CUDA.  
 The work involved building the **LeNet-5** architecture from scratch, implementing both CPU (C) and GPU (CUDA C++) versions, and performing detailed performance benchmarking and memory optimization.  
 
-The goal was to explore how **data parallelism** and **memory hierarchy optimization** especially shared-memory and coalesced global access—affect performance in deep-learning workloads.  
+The goal was to explore how **data parallelism** and **memory hierarchy optimization** especially shared-memory and coalesced global access affect performance in deep-learning workloads.  
 The project demonstrates end-to-end understanding of **GPU kernel design, profiling, and throughput analysis**, aligning with real-world AI hardware acceleration workflows.
 
 ---
