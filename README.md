@@ -64,3 +64,24 @@ Two GPU implementations are provided:
 ---
 
 ## 🗂️ Repository Structure
+├── /src
+│ ├── lenet5_cpu.c
+│ ├── lenet5_cuda_global.cu
+│ ├── lenet5_cuda_shared.cu
+│ ├── utils.h / utils.c
+│
+├── /data
+│ └── sample_mnist_images/
+│
+├── /results
+│ ├── performance_logs.txt
+│ ├── layerwise_timing.csv
+│ └── plots/
+│
+├── /scripts
+│ ├── profile_with_nsight.sh
+│ └── benchmark.py
+│
+└── /docs
+├── project_report.pdf
+└── presentation_slides.pdf
